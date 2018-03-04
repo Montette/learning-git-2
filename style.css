@@ -1,6 +1,8 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+        background: linear-gradient(to right, #02111d, #037bb5, #02111d); 
+    
 }
 .container {
     width: 50%;
