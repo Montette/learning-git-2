@@ -1,9 +1,9 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-        background: linear-gradient(to right, #02111d, #037bb5, #02111d); 
-    
+        background: linear-gradient(to right, #02111d, #037bb5, #02111d);     
 }
+
 .container {
     width: 50%;
     margin: 0 auto;
@@ -14,13 +14,13 @@ body {
 }
 
 .container p {
-    text-align: center;;
+    text-align: center;
     width: 40%;
     font-size: 18px;
 }
 
 h1 {
-    font-size: 23px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
