@@ -7,6 +7,7 @@
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
     "build": "npm-run-all build:* test:*",
+    "build:clean": "rimraf css/*.css",
     "build:sass": "node-sass --output-style compact -o css sass",  
     "build:autoprefixer": "autoprefixer-cli css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
